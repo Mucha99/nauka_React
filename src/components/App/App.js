@@ -7,9 +7,13 @@ class App extends React.Component {
     return (
       <main className={styles.component}>
         <h1 className={styles.title}>My first React app</h1>
-        <h2 className={styles.subtitle}>Hello World!</h2>
-        <List  title={['Things to do', <sup key='1'> soon!</sup>]}>
-        </List>
+        <h2 className={styles.subtitle}>
+          A simple to-do app, with lists, columns and card
+        </h2>
+        <List  
+          title={['Things to do', <sup key='1'> soon!</sup>]} 
+          adres={'https://cdn.dribbble.com/users/2898440/screenshots/5994174/into_space.gif'}
+        />
       </main>
     )
   }
