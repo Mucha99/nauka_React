@@ -13,7 +13,7 @@ const Hero = props => (
     </header>
 );
 
-Hero.popTypes = {
+Hero.propTypes = {
     titleText: PropTypes.node.isRequired,
     adresText: PropTypes.string.isRequired,
 }
