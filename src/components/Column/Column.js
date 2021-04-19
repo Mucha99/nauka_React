@@ -7,7 +7,6 @@ class Column extends React.Component {
         title: PropTypes.string.isRequired,
     }
 
-
     render() {
         return (
             <section className={styles.component}>
