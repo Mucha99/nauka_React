@@ -10,8 +10,21 @@ export const settings = {
     defaultText: 'Search...',
     icon: 'search',
   },
+  logo: {
+    icon: 'space-shuttle',
+  },
   defaultListDescription: '<p>I can do all the things!!!</p>',
-  defaultColumnIcon: 'list-alt',
+  defaultColumnIcon: 'list-alt', 
+};
+
+export const infoContents = {
+  title: 'Information',
+  image: 'https://cdn.dribbble.com/users/877246/screenshots/4803047/dio_dribbble.png?compress=1&resize=800x600',
+};
+
+export const faqContents = {
+  title: 'FAQ',
+  image: 'https://cdn.dribbble.com/users/4818297/screenshots/12378591/media/a59897ca94072c5371595402746a93d6.jpg?compress=1&resize=1200x900',
 };
 
 export const pageContents = {
