@@ -88,9 +88,21 @@ export const listData = {
 const lists = [
   {
     id: 'list-1',
-    title: 'Things to do <sup>soon!</sup>',
-    description: 'Interesting things I want to check out!',
-    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+    title: 'Earth',
+    description: 'Ziemia ładna ziemia',
+    image: 'https://cdn.dribbble.com/users/360844/screenshots/3615828/earth.png?compress=1&resize=800x600',
+  },
+  {
+    id: 'list-2',
+    title: 'Mars',
+    description: 'Ciekawostki z Marsa',
+    image: 'https://cdn.dribbble.com/users/360844/screenshots/3635268/mars.png?compress=1&resize=800x600',
+  },
+  {
+    id: 'list-3',
+    title: 'Saturn',
+    description: 'To taki sklep był kiedyś',
+    image: 'https://cdn.dribbble.com/users/360844/screenshots/3667620/saturn.png?compress=1&resize=800x600',
   },
 ];
 
