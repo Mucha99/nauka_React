@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './Home.scss';
 import PropTypes from 'prop-types';
 import ListLink from '../ListLink/ListLink';
-// import {pageContents, listData} from '../../data/dataStore';
 
 class Home extends React.Component {
   static propTypes = {
