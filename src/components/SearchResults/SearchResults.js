@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../Column/Column.scss';
 import PropTypes from 'prop-types';
-// import Card from '../Card/Card';
+import Card from '../Card/Card';
 import Icon from '../Icon/Icon';
 import { settings } from '../../data/dataStore';
 
@@ -17,7 +17,7 @@ class SearchResults extends React.Component {
     }
 
     render() {
-      const {title, icon} = this.props;
+      const {title, icon, cards} = this.props;
       return (
         <section className={styles.component}>
           <h3 className={styles.title}>
@@ -25,11 +25,11 @@ class SearchResults extends React.Component {
               <Icon name={icon}/>
             </span> {title}
           </h3>
-          {/* <div className={styles.cards}>
+          <div className={styles.cards}>
             {cards.map(cardData => (
               <Card key={cardData.id} {...cardData} />
             ))}
-          </div>  */}
+          </div> 
         </section> 
       );
     }
